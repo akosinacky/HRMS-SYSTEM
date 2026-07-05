@@ -6,8 +6,8 @@
 import { createClient } from "@supabase/supabase-js";
 
 // Public keys — safe to ship to the browser.
-const SUPABASE_URL = "https://tmvdiqeluqyretmemwsr.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_pneLfsz1zCMaor0ucMzghA_dVMevZwj";
+const SUPABASE_URL = "https://ctzzlvnjtrtyldggsgqg.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_GQfTltG3WyM7u11lZZFISw_F_uGw-aP";
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
   auth: {
